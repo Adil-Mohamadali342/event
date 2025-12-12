@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Event Registration Form</title>
+</head>
+<body>
+
+    <form action="/">
+        <div class="head">
+            <h1>Event Registration Form</h1>
+        </div>
+
+        <div class="name">
+            <label for="name">NAME: </label>
+            <input type="text" placeholder="Enter your name" id="name">
+        </div>
+
+        <div class="info">
+            <label for="age">AGE: </label>
+            <input type="number" placeholder="Enter your age" id="age">
+
+            <label for="gender">GENDER: </label>
+            <input type="text" placeholder="Enter your gender" id="gender">
+
+            <label for="usn">USN: </label>
+            <input type="text" placeholder="Enter your USN" id="usn">
+        </div>
+
+        <div class="dept">
+            <label for="dept">DEPARTMENT: </label>
+            <select name="dept" id="dept">
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="ise">ISE</option>
+                <option value="ai">AIML</option>
+            </select>
+        </div>
+
+        <div class="des">
+            <label for="des">DESCRIPTION: </label>
+            <textarea name="des" id="des" cols="70" rows="13"></textarea>
+        </div>
+
+        <div class="btn">
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
